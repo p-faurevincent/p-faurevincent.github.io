@@ -1,10 +1,8 @@
 ---
 title: "Le Raspberry pi"
-permalink: /docs/raspberry/
+permalink: /hello-gpio/raspberry/
 excerpt: "Installation du raspberry"
 last_modified_at: 2020-05-04
-redirect_from:
-  - /theme-setup/
 toc: true
 ---
 

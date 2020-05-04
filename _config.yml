@@ -266,6 +266,12 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  hello-gpio:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -286,3 +292,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _hello-gpio
+  - scope:
+      path: ""
+      type: hello-gpio
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "hello-gpio"
