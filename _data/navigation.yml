@@ -21,5 +21,7 @@ hello-gpio:
         url: /hello-gpio/raspberry/
   - title: Le Kit
     children:
-      - title: "Kit"
+      - title: "Présentation Kit"
         url: /hello-gpio/kit/
+      - title: "Le shift register"
+        url: /hello-gpio/shift-register/
